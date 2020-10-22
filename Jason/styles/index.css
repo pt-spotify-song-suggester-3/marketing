@@ -64,12 +64,13 @@ body {
 
 .main-section {
 	background-image: url('../assets/Spotify.png');
-	height: 100vh;
-	width: 100%;
+	background-size: cover;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	padding-bottom:10vh;
+	padding-top:20vh;
 }
 
 .catchy-thing {
@@ -152,7 +153,6 @@ a {
 }
 
 .fa-spotify {
-	border: 3px solid white;
 	font-size: 2rem;
 }
 
@@ -162,12 +162,13 @@ a {
 	font-size: 1rem;
     display: flex;
 	border: 2px solid black;
-	height: 70vh;
+	height: 50vh;
 	width: 99.7%;
 	justify-content:space-around;
 	align-items: flex-start;
 	flex-direction: row;
 	padding-top: 10vh;
+	position: relative;
 }
 
 .footer-div1 {
@@ -186,16 +187,26 @@ a {
 }
 
 .footer-logo{
-	border: 3px solid white;
 	padding: 0px;
 }
 
-nav div {
-	border: 3px solid white;
+.footer-icons {
+	background-color: #222326;
+	padding: 20px;
+	border-radius: 50px;
+	margin: 5px;
 }
 
-nav div a {
-	border: 1px solid white;
+nav div p {
+	font-weight: 900;
+	color: #919496;
 }
+
+
+nav div a {
+	padding-top: 5vh;
+	font-weight: 700;
+}
+
 
 
