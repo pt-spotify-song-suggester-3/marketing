@@ -47,15 +47,155 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
 /* Beginning of my CSS */
-/*Header styling section*/
+
+body {
+
+}
+
+.main-section {
+	background-image: url('../assets/Spotify.png');
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.catchy-thing {
+	font-size: 10rem;
+	color: #1DBA54;
+	margin-right: 10vw;
+	font-weight: 900;
+}
+
+.catchy-thing2 {
+	font-size: 10rem;
+	color: #1DBA54;
+	margin-left: 10vw;
+	font-weight: 900;
+}
+
+.snarky-thing {
+	color: #1DBA54;
+	font-size: 1.2rem;
+	margin-top: 10vh;
+	font-weight: 700;
+}
+
+button {
+	margin-top: 10vh;
+	border-radius: 50px;
+	padding: 15px 30px 15px 30px;
+	color: white;
+	background-color: #1DBA54;
+	border: none;
+	font-weight: 700;
+	color: #2081C3;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #2081C3;
+	transition-duration: .3s;
+}
+
+nav {
+	color: white;
+	background-color: black;
+	height: 10vh;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
 
 .header-nav {
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid black;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	width: 100%;
 }
+
+.header-spacer1 {
+	background-color: white;
+	width:20%;
+	visibility: hidden;
+}
+
+.header-spacer2 {
+	font-size:1.2rem;
+}
+
+.nav1 {
+}
+
+.nav2 {
+}
+
+.nav3 {
+}
+
+.fa-spotify {
+	border: 3px solid white;
+	font-size: 2rem;
+}
+
+/* Footer Nav Stuff */
+
+.footer-nav {
+	font-size: 1rem;
+    display: flex;
+	border: 2px solid black;
+	height: 70vh;
+	width: 99.7%;
+	justify-content:space-around;
+	align-items: flex-start;
+	flex-direction: row;
+	padding-top: 10vh;
+}
+
+.footer-div1 {
+	display:flex;
+	flex-direction: column;
+}
+
+.footer-div2 {
+	display:flex;
+	flex-direction: column;
+}
+
+.footer-div3 {
+	display:flex;
+	flex-direction: column;
+}
+
+.footer-logo{
+	border: 3px solid white;
+	padding: 0px;
+}
+
+nav div {
+	border: 3px solid white;
+}
+
+nav div a {
+	border: 1px solid white;
+}
+
 
