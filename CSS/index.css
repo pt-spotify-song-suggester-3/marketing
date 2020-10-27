@@ -309,4 +309,20 @@
     font-size: 20px;
     color: white;
   }
-  
+  @media (max-width:500px) {
+    .nav-container .navigation {
+      width: 90%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .features .featured {
+      width: 80%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .footer{
+      width: 80%;
+    }
+  }
