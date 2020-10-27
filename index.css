@@ -98,6 +98,7 @@
 
 body {
     width: 100%;
+    background-color: black;
 }
 
 .nav {
@@ -181,4 +182,50 @@ img {
 .image {
     display: flex;
     justify-content: space-around;
+}
+
+.about-body {
+    background-color: white;
+}
+
+.img-with-text {
+    text-align: center;
+    width: auto;
+
+}
+
+.img-with-text img {
+    /* display: flinex; */
+    /* margin: 0 auto; */
+    width: 10rem;
+    height: auto;
+}
+
+.top-profiles{
+    display:flex;
+    justify-content: center;
+}
+
+.img-with-text p {
+    margin-top: -1rem;
+}
+
+.bottom-profiles{
+    display:flex;
+    justify-content: center;
+}
+
+.desc {
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-header{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
