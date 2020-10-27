@@ -1,0 +1,231 @@
+/* Carousel */
+/* * {box-sizing:border-box; */
+/* border:1px solid black} */
+
+/* Slideshow container */
+/* .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+} */
+
+/* Hide the images by default */
+/* .mySlides { */
+  /* display: none; */
+/* } */
+
+/* Next & previous buttons */
+/* .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} */
+
+/* Caption text
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+/* End of Carousel Code  */
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1db954;
+    height: 3rem;
+    align-content: center;
+}
+
+.tabs {
+    margin-right: 6rem;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.tabs a {
+    padding: 1.4rem;
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: -8px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 12px;
+}
+
+.cta {
+    padding: 2rem;
+    height: 19rem;
+    background-image: url(/assets/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+    background-size: contain;
+}
+.cta-text {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    color:white;
+    font-size: 4rem;
+    margin-bottom: -.2rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+button {
+    background-color: #1ed760;
+    padding:.8rem;
+    border-radius: 2rem;
+    width:8rem;
+    font-size: large;
+    color: white;
+}
+
+img {
+    background-size: contain;
+    width: 15rem;
+    height: 15rem;
+    display: inline-flex;
+    /* justify-content: space-between; */
+    /* align-content: center; */
+    margin: 2rem;
+    border-radius: 50%;
+}
+
+.vinyl {
+    transform: rotate(125deg);
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-body {
+    background-color: white;
+}
+
+.img-with-text {
+    text-align: center;
+    width: auto;
+
+}
+
+.img-with-text img {
+    /* display: flinex; */
+    /* margin: 0 auto; */
+    width: 10rem;
+    height: auto;
+}
+
+.top-profiles{
+    display:flex;
+    justify-content: center;
+}
+
+.img-with-text p {
+    margin-top: -1rem;
+}
+
+.bottom-profiles{
+    display:flex;
+    justify-content: center;
+}
+
+.desc {
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-header{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
